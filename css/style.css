@@ -1,0 +1,74 @@
+/* body */
+.divs{
+    margin-left: 20%;
+    margin-right: 25%;
+}
+/* header */
+
+nav{
+   
+    margin-right: 0px;
+    float: right;
+}
+
+
+.del{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    display: inline;
+    
+}
+.logo{
+    float:left;
+}
+div summary{
+    font-size: 8px;
+
+}
+nav ul li{
+    display: inline-block;
+    padding: 2px;
+
+
+}
+.det{
+    font-size: xx-small;
+    display: inline;
+    margin-left: 0px;
+    padding-left: 2px;
+padding-top: 0px;}
+
+
+
+#cbox3:checked + label {
+    text-decoration: line-through;
+  }
+
+  /* footer  */
+  
+  footer hr{ 
+    background: url(../images/small-logo.png) no-repeat top center;
+    background-size: contain;
+    display: block;
+    height: 18px;
+    border: 0;
+    position: relative;
+}
+ footer hr:before,footer hr:after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: #d7d7d7;
+    height: 2px;
+    top: 8px;
+}
+ footer hr:before {
+    left: 0;
+    right: 50%;
+    margin-right: 10px;
+}
+ footer hr:after {
+    right: 0;
+    left: 50%;
+    margin-left: 10px;
+}
